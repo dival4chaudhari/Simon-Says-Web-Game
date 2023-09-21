@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div id=nav class="nav">
+        <form>
+            <p>Player Name</p>
+            <input type="text" placeholder="Enter your name Player">
+            <button type="button">Submit</button>    
+        </form>
+        <h4>Rules to Play Simon Says</h4>
+        <p>In this game you will have to match the pattern which computer make 
+            during each levels.</p>
+        <p>Example: If you see red button blicked on level 1, then press 
+            red box.you will be in level 2, if yellow button is blicked 
+            by computer now you have to press first red button and then 
+            yellow to go in level 3. And carryon.</p>
+    </div>
+    <div class="main">
+        <h1>Simon Says Game</h1>
+        <h2>Press any key to start the game</h2>
+        <div class="btnc">
+            <div class="line1">
+                <div id="red" class="btn red" type="button"></div>
+                <div id="yellow" class="btn yellow" type="button"></div>
+            </div>
+            <div class="line2">
+                <div id="green" class="btn green" type="button"></div>
+                <div id="blue" class="btn blue" type="button"></div>
+            </div>    
+        </div>
+        <h3>Highscore is 0</h3>
+    </div>
+  
+
+
+    <script src="game.js"></script>
+</body>
+</html>

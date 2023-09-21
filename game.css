@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: left;
+}
+.con {
+    
+}
+#nav {
+    margin-right: 200px;
+    border: 5px solid rgb(70, 68, 68);   
+    width: 400px;
+    background-color: rgb(90, 167, 235);
+}
+.btnc {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.btn {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+}
+
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: rgb(94, 18, 90);
+}
+.blue {
+    background-color: blue;
+}
+.flash {
+    background-color: white;
+}
+.userflash {
+    background-color: rgb(16, 247, 54);
+}
+.overflash {
+    background-color: red;
+}
